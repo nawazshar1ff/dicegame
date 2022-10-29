@@ -8,9 +8,9 @@ var randomDiceImage1 = "dice" + randomNum1 +".png";
 
 var randomDiceImage2 = "dice" + randomNum2 +".png";
 
-var randomImagesource = "nawazshar1ff/dicegame/White/" + randomDiceImage1;
+var randomImagesource = "/White/" + randomDiceImage1;
 
-var randomImagesource2 = "nawazshar1ff/dicegame/White/" + randomDiceImage2;
+var randomImagesource2 = "/White/" + randomDiceImage2;
 
 var dice1 = document.querySelectorAll("img")[0];
 dice1.setAttribute("src", randomImagesource);
